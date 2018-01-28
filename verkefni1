@@ -1,0 +1,18 @@
+Verkefni 1 - Spurningar
+
+1. Ubuntu Server er svo kallað "server operating system". Það er þróað af starfsmönnum Canonical og open source forritörum úti um allan heim, Ubuntu serverinn vinnur með nánast hvaða hardware eða virtualization platform sem er. Það getur veitt vefsíður, file shares og containers. Það sem skilgreinir þetta aðalega frá Ubuntu desktop er sá að serverinn reynir að komast hjá því að vera með "desktop packages" t.d Gnome og KDE.
+2. Apache og Nginx eru bæði vefþjónar HTTP servers og open source. Báðir  birta vefsíðu til notanda í gegnum hlut sem heitir HTTP protocol og geyma vefsíðuna.  Browserinn sendir og sækir upplýsingar til serversinns og hann til baka í gegunm HTTP. Nginx er mun yngra en Apache þannig það er mun meira efni um Apache á netinu heldur en Nginx. Nginx notar hjálpar forrit til að taka inn dynamic content á meðan Apache  getur tekið inn dynamic content alveg sjálft.
+3.
+  a) Flestir vefþjónar styðja Common Gateway Interface (CGI) vegna þess að það er elsta interfaceið. En CGI er interface sem segir vefþjónum hvernig á að senda og sækja gögn frá appi.
+	b) Mod_python er svo kallaður server module sem var aðalega notað á árunum 1990-2000, en það er notað af Apache en Apache notar python með netþjóninum. Mod_python var og er með rosalega mikið af vandamálum. Mod_python er lítið notað nú til dags.
+	c) FastCGI er binary protocol fyrir tengsl gagnvirkra forrita við vefþjón. FastCGI er tegund af CGI. Aðal markmið FastCGI er er að draga úr kostnaði við tengingu, vefþjónninn og CGI forrit, gera servernum kleift að höndla fleiri vefsíðu beiðnir í einu.
+     Simple Common Gateway Interface (SCGI) er protocol fyrir forrit til interface með HTTP serverum. Það er mjög líkt FastCGI en er hannað til að vera auðveldara að implementa, það leyfir CGI aðgerðir þar sem CGI aðgerðir hafa verulega seinkun.
+	d) Mod_wsgi er Apache HTTP Server module sem var gert af Graham Dumpleton sem veitir WSGI samhæft interface fyrir hýsingu á Python byggt vef forrit undir Apache.
+	e) Gunicorn 'Green Unicorn' er Python WSGI HTTP Server fyrir UNIX. The Gunicorn server er í stórum dráttum samhæft við mismunandi frameworks vefja, létt á server resources og tiltölulega fljótur.
+	f) uWSGI er application server, sem er oft notaður með Nginx.
+4. Geyma
+5. PiP er package management system sem er notað til að setja upp og stjórna hugbúnaðar pökkum í Python.
+6. Helsti munurinn er sá að HTTP 2.0 er hraðari en HTTP 1.1
+7. SSH eða Secure Shell er cryptographic network protocol er notað til að senda net þjóna yfir net sem eru óörugg. SSH key er lykill til að tengjast SSH serverum svo þú þurfir ekki að nota lykilorð.
+8. Two-factor authentication einnig þekktsem 2FA, er auka öryggislag sem er þekkt sem "multi factor authentication" sem krefst ekki aðeins lykilorðs og notandanafns heldur einnig eitthvað sem aðeins og aðeins þessi notandi hefur á þeim, svo sem aðeins upplýsinga sem þeir ættu að vita eða hafa strax að höndunum. Eins og sími eða netfang. Kosturinn er sá að þú ert mikið öruggari en þú ert þá mikið lengur að skrá þig inn.
+9. IPv6 er nýjasta tegundin af ip tölum. Það var byrjað að nota IPv6 vegna þess að allar IPv4 voru að klárast, IPv6 er mun lengri en IPv4. Það eru 4.3 miljarða IPv4 ip tölur á meðan IPv6 er meðog IPv6 eru fleiri en 7.9×1028.
