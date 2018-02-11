@@ -1,0 +1,6 @@
+a. Model view controller eða MVC er svokallað software architectural pattern er sérstök leið til að skipuleggja kóðan þinn, kóðanum er skipt niður í þrjá megin búta, Model, Controller og View.
+   Model geymir gögn og stjórnar þeim, View birtir allar upplýsingar og passar útlit eins og Javascript og css, Controller tekur inn gögn og breytir þeim fyrir bæði view og model.
+b. Ajax er veftækni sem vinnur í bakgrunninum, Ajax sendir gögn á milli browsersins og serversins án þess að þú þurfir að reloada síðunni.
+   HTML5 WebSockets er svo kallað TCP protocol sem sendir gögn í browser án þess að fá nokkura beiðni, það er hægt að senda gögn á milli browsers og servers og þannig heldur það tengingunni opni.
+c. Model View Wildcard eða MV* eru MVC (model-view-controller), MVVM (model-view-view model), MVP (model-view-presenter), og fleiri, eða bara öll frameworks sem nota Model View hönnunar mynstur. 
+   Single Page Application eða SPA er að þetta loadar bara einni html síðu og dynamicly uppfærir síðuna ámeðan notandinn notar síðuna. SPA lætur browserinn gera mest alla vinnuna.
