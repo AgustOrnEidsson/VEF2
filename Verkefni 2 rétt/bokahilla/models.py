@@ -12,7 +12,7 @@ class bokin:
     def URL(self):
         return self.URL
     def lysing(self):
-        utskrift="Nafn bókar: "+self.bok+"<br>"+"Útgáfuár: "+self.ar+"<br>"+"Höfundur: "+self.hofundur+"<br>"+"Útgáfu fyrirtæki: "+self.utgef
+        utskrift="Þetta er bókin "+self.bok+"\n"+" hún var gefin út árið "+self.ar+"\n"+", höfundur þessara bókar er "+self.hofundur+"\n"+" og útgáfu fyrirtækið er "+self.utgef
         return utskrift
 
 class URLCheck:
