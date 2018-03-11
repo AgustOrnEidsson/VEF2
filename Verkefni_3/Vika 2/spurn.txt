@@ -1,0 +1,1 @@
+1. ORM umbreytir gögnum á milli ósamrýmanlegra tegundakerfa sem nota object-oriented programming. Þetta skapar í raun "virtual object gagnagrunn" sem hægt er að nota innan forritsins
