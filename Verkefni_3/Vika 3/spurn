@@ -1,0 +1,49 @@
+
+1.API eða Application Programing Interface er þegar kóðar hafa samskipti á hvaða hátt sem er.
+  Web API gerir það kleypt að framkvæma kóða á annari vél yfir netið
+
+2. 
+   A) 
+        {"crust type": "orginal",
+         "toppings": ["cheese", "pepperoni", "garlic"],
+         "status": "cooking",
+         "customer": {
+           "name": "Karl Karlsson",
+           "phone": 1234567}
+        }
+
+   B)
+    <pizza>
+       <crustType>orginal</crustType>
+       <toppings>[cheese,pepperoni,garlic]</toppings>
+       <status>cooking</status>
+       <customer>
+          <name>Karl Karlsson</name>
+          <phone>1234567</phone>
+       </customer>
+    </pizza>
+
+3. OSI Model er alveg sama hvað er á tölvuni sem það stundar samskipti við
+
+4. Restful API er samskipta http reglur
+
+5.
+  A)
+    1. Request line
+    2. General Headers
+    3. Request Headers
+    4. Entity Headers
+    5. Empty line
+    6. Body
+	    - Auka upplýsingar
+   
+  B)
+    1. Status line
+    2. General Headers
+    3. Response Headers
+    4. Entity Headers
+    5. Empty line
+    6. Body
+	    - það sem er skilað
+
+6. OAuth er þannig að það leyfir vefsíðum/forritum að fá aðganga að upplýsingum án þess að þurfa password. Eins og þegar þú ert á spotify þá geturðu valið að tengja við facebook.
