@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>The Dark knight</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+</head>
+<body>
+  <div class="ui secondary vertical menu">
+  <a class="active item" href="/">
+    Forsíða
+  </a>
+  <a class="item" href="/nanar/Mockingjay">
+    Hafðu samband
+  </a>
+  <div class="ui dropdown item">
+    <i class="dropdown icon"></i>
+    Leikarar
+    <div class="menu">
+      <div class="header">Text Size</div>
+      {% for bokin in listi %}
+      	<a class="item" href="./nanar/{{ bokin.URL }}">{{ bokin.bok }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</body>
+</html>
