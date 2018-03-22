@@ -1,0 +1,16 @@
+{% include "index.html" %}
+<head>
+	<title>Leikarar</title>
+</head>
+	{% for bokin in listi %}
+	<br>
+	<div class="ui grid">
+	  <div class="four wide column">
+	    <img  class="ui medium circular image" src="{{ mynd }}" width="100" height="100">
+	  </div>
+	  <div class="nine wide column">
+	    <p>{{bok}}</p>
+	  </div>
+	</div>
+	{% endfor %}
+{% block body %}{% endblock %}

@@ -1,32 +1,42 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hafðu Samband</title>
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-        <div>
-        	<div class="ui grid">
-            <div class="three wide column"></div>
-    				<div class="four wide column">
-              <div><h2><strong>Netfang:</strong></h2></div>
-              <br>
-              <div class="four wide column"><h4>Ef þú hefur einhverjar spurningar<a href="mailto:gustigaur@gmail.com@gmail.com?subject=Blog Feedback">, sendu okkur póst.</a></h4></div>
-            </div>
-    				<div class="four wide column">
-              <div><h2><strong>Heimilisfang:</strong></h2></div>
-              <br>
-              <div class="four wide column"><h4>Dalvegi 2, 201 Kópavogur</h4></div>
-            </div>
-    				<div class="four wide column">
-              <div><h2><strong>Sími:</strong></h2></div>
-              <br>
-              <div class="four wide column"><h4>8570273</h4></div>
-            </div>
-          </div>
-			</div>
-        </div>
-    </body>
-</html>
+{% include "index.html" %}
+<head>
+    <title>Hafðu Samband</title>
+</head>
+  <div class="ui form success">
+    <div class="ui form">
+      <div class="required field">
+        <label>Fullt Nafn</label>
+        <input type="text" placeholder="t.d Jón Jónsson">
+      </div>
+      <div class="required field">
+        <label>Netfang</label>
+        <input type="email" placeholder="jonjons@hotmail.com">
+      </div>
+    </div>
+    <div class="ui success message">
+      <div class="header">Fyrirspurn send</div>
+        <p>Takk fyrir hjálpina.</p>
+      </div>
+    <div class="ui submit button">Submit</div>
+  </div>
+    <div>
+  	<div class="ui grid">
+      <div class="three wide column"></div>
+			<div class="four wide column">
+        <div><h2><strong>Netfang:</strong></h2></div>
+        <br>
+        <div class="four wide column"><h4>Ef þú hefur einhverjar spurningar<a href="mailto:gustigaur@gmail.com?subject=spurning Feedback">, sendu okkur póst.</a></h4></div>
+      </div>
+			<div class="four wide column">
+        <div><h2><strong>Heimilisfang:</strong></h2></div>
+        <br>
+        <div class="four wide column"><h4>Dalvegi 2, 201 Kópavogur</h4></div>
+      </div>
+			<div class="four wide column">
+        <div><h2><strong>Sími:</strong></h2></div>
+        <br>
+        <div class="four wide column"><h4>1234567</h4></div>
+      </div>
+    </div>
+	</div>
+{% block body %}{% endblock %}

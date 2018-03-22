@@ -7,8 +7,12 @@ listi=models.listi
 
 @app.route('/index')
 def index():
-    return render_template('index.html',listi=listi)
+    return render_template('forsida.html',listi=listi)
 
-@app.route('/nanar/<book>')
+@app.route('/hafdusamband')
 def bokin(book=None):
-    return render_template('nanar.html', bokin=models.URLCheck(listi,book).check())
+    return render_template('nanar.html')
+
+@app.route('/leikarar')
+def leik():
+    return render_template('leika.html',listi=listi)
