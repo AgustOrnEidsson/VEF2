@@ -2,6 +2,17 @@
 <head>
     <title>Hafðu Samband</title>
 </head>
+<script type="text/javascript">
+   function showHide() {
+     var div = document.getElementById("hidden_div");
+     if (div.style.display == 'none') {
+       div.style.display = '';
+     }
+     else {
+       div.style.display = 'none';
+     }
+   }
+  </script>
   <div class="ui form success">
     <div class="ui form">
       <div class="required field">
@@ -10,14 +21,14 @@
       </div>
       <div class="required field">
         <label>Netfang</label>
-        <input type="email" placeholder="jonjons@hotmail.com">
+        <input type="email" placeholder="jonjons@hotmail.com" required>
       </div>
     </div>
-    <div class="ui success message">
+    <div class="ui success message" id="hidden_div">
       <div class="header">Fyrirspurn send</div>
         <p>Takk fyrir hjálpina.</p>
-      </div>
-    <div class="ui submit button">Submit</div>
+    </div>
+    <div class="ui submit button" method="post" onsubmit="showHide(); return false;">Submit</div>
   </div>
     <div>
   	<div class="ui grid">
